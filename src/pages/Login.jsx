@@ -9,7 +9,8 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/loginuser", {
+    // const response = await fetch("http://localhost:5000/api/loginuser", { this is changed because i deployed my project and its need the backend url
+      const response = await fetch("https://mern-project1-zusa.onrender.com/api/loginuser", {
       method: 'POST',
       headers: {
         "Content-Type": "application/json"
