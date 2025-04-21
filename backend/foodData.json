@@ -1,0 +1,100 @@
+[
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Chicken Fried Rice",
+        "img": "/images/img1.png",
+        "options": [
+            {
+                "half": "130",
+                "full": "220"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Egg Fried Rice",
+        "img": "/images/img4.png",
+        "options": [
+            {
+                "half": "110",
+                "full": "200"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Full Thali",
+        "img": "/images/img3.png",
+        "options": [
+            {
+                "half": "200",
+                "full": "320"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "name": "Chicken Biryani",
+        "img": "/images/img5.png",
+        "options": [
+            {
+                "half": "170",
+                "full": "300"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Starter",
+        "name": "Fish Fry",
+        "img": "/images/img8.png",
+        "options": [
+            {
+                "half": "120",
+                "full": "200"
+            }
+        ],
+        "description": "Made using Indian masalas and Backed in Oven. Barbequed pieces of Fish Fry were added."
+    },
+      {
+        "CategoryName": "Starter",
+        "name": "Chicken Tikka",
+        "img": "/images/img7.png ",
+        "options": [
+            {
+                "half": "170",
+                "full": "300"
+            }
+        ],
+        "description": "Made using Indian masalas. Barbequed pieces of Paneer/Chicken/Cabbage were added."
+    },
+     {
+        "CategoryName": "Pizza",
+        "name": "Chicken Cheese Pizza",
+        "img": "/images/img6.png",
+        "options": [
+            {
+                "regular": "120",
+                "medium": "230",
+                "large": "350"
+            }
+        ],
+        "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "CategoryName": "Burger",
+        "name": "Mix Veg Burger",
+        "img": "/images/img2.png",
+        "options": [
+            {
+                "regular": "100",
+                "medium": "200",
+                "large": "300"
+            }
+        ],
+        "description": "Made using Indian masalas and crispy vegitables . Barbequed pieces of Chicken were added."
+    }
+]

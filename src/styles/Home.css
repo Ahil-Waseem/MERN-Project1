@@ -1,0 +1,127 @@
+/* 🔹 Flexbox for alignment */
+.dropdown-container {
+    display: flex;
+    gap: 10px; /* Space between elements */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  /* 🔹 Smaller dropdowns */
+  .small-dropdown {
+    width: 20px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  /* 🔹 Smaller button */
+  .small-btn {
+    padding: 5px 5px;
+    font-size: 14px;
+  }
+  .card-container {
+    display: flex;  /* ✅ Flexbox enable kiya */
+    flex-wrap: wrap;  /* ✅ Cards wrap honge chhoti screen par */
+    justify-content: space-evenly;  /* ✅ Cards evenly spread honge */
+    gap: 20px;
+    padding: 60px 20px;
+  }
+  .card-container .card {
+    width: 250px; /* ✅ Fixed width to avoid layout break */
+    flex-grow: 1; /* ✅ Adjust karega chhoti screen pe */
+    min-width: 200px; /* ✅ Minimum size set */
+}
+.card-img-top {
+    width: 100%; 
+    height: 80%; /* Sabhi images ki height same rahe */
+    object-fit: cover; /* Image crop ho sakti hai, par pura space cover karegi */
+    object-position: center; /* Image center me dikhegi */
+  }
+  .category-section {
+    margin-top: 40px; /* Adjust spacing as needed */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+  
+  .category-section h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+
+@media (max-width: 600px) {
+    .dropdown-container {
+        display: flex;
+        flex-wrap: nowrap;  /* ✅ Ek line me rakhega */
+        justify-content: flex-start; /* ✅ Left align karega */
+        gap: 5px; /* ✅ Thoda gap */
+    }
+
+    .small-dropdown {
+        width: auto; /* ✅ Width adjust karega */
+    }
+
+    .small-btn {
+        white-space: nowrap; /* ✅ Button ka text break nahi hoga */
+        padding: 5px 8px; /* ✅ Thoda compact banayega */
+    }
+}
+/* 🔹 Mobile Small (up to 480px) */
+@media (max-width: 480px) {
+    .dropdown-container {
+        display: flex;
+        flex-wrap: nowrap;  /* ✅ Ek hi row me rakhega */
+        justify-content: flex-start;
+        gap: 4px;
+    }
+    .small-dropdown {
+        width: 45px; /* ✅ Thodi chhoti width for small screens */
+    }
+    .small-btn {
+        padding: 5px 7px;
+        font-size: 12px;
+    }
+}
+
+/* 🔹 Mobile Medium (481px - 768px) */
+@media (max-width: 768px) {
+    .dropdown-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 6px;
+    }
+    .small-dropdown {
+        width: 50px; /* ✅ Medium screens ke liye adjust */
+    }
+    .small-btn {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+    .category-box {
+  font-size: 1.5rem;
+  color: black;
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+}
+
+/* 🔹 Mobile Large & Tablets (769px - 1024px) */
+@media (max-width: 1024px) {
+    .dropdown-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        gap: 8px;
+    }
+    .small-dropdown {
+        width: 55px; /* ✅ Large screens ke liye adjust */
+    }
+    .small-btn {
+        padding: 7px 12px;
+        font-size: 15px;
+    }
+}
